@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test thread-count="1" name="Shawarma Test" parallel = "methods">
+        <classes>
+            <class name="com.shawarma.tests.OrangeHRMTests"/>
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+        </classes>
+    </test>
+</suite>
